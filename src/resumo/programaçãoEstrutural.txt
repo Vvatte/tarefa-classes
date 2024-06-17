@@ -1,0 +1,15 @@
+Programação estrutural
+
+Programação estrutural é um paradigma de programação que organiza o código
+de forma clara e lógica, utilizando três estruturas principais:
+-Sequência: As instruções são executadas uma após a outra, na ordem em que
+aparecem no código. É como seguir uma receita passo a passo.
+
+-Seleção /Condicional: O programa toma decisões com base em condições.
+Isso é feito usando estruturas como if", "else", e "else if", que permitem que
+o programa execute diferentes blocos de código dependendo de certas condições.
+É como escolher o caminho certo dependendo do sinal de trânsito.
+
+-Repetição /Loop:  Instruções são repetidas várias vezes até que uma condição seja
+satisfeita. Isso é feito usando estruturas como "for", "while". É como repetir um
+exercício até que você atinja o número desejado de repetições.

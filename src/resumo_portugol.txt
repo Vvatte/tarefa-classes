@@ -1,0 +1,37 @@
+algoritmo "RotinaDiaria"
+var
+    horaAtual: inteiro
+    atividade: caractere
+
+inicio
+    // Definir a hora inicial
+    horaAtual <- 7
+
+    // Rotina da manhã
+    enquanto (horaAtual <= 12) faca
+        escolha horaAtual
+            caso 7:
+                atividade <- "Acordar"
+            caso 8:
+                atividade <- "Exercicio fisico"
+            caso 9:
+                atividade <- "Tomar café da manhã"
+            caso 10:
+                atividade <- "Ler"
+            caso 11:
+                atividade <- "Estudar   "
+            caso 12:
+                atividade <- "Almoçar"
+            outrocaso:
+                atividade <- "Atividade não definida"
+        fimescolha
+
+        // Exibir a atividade atual
+        escreva("Hora: ", horaAtual, " - Atividade: ", atividade, "\n")
+
+        // Avançar uma hora
+        horaAtual <- horaAtual + 1
+    fimenquanto
+
+    escreva("Fim da rotina da manhã.\n")
+fimalgoritmo
